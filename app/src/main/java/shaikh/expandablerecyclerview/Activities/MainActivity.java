@@ -113,6 +113,6 @@ public class MainActivity extends AppCompatActivity implements ExpandableAdapter
 
     @Override
     public void onChildClick(int position) {
-        Toast.makeText(this, "Clicked : " + data.get(position).getItemName(), Toast.LENGTH_LONG).show();
+        Toast.makeText(this, getString(R.string.clicked) + data.get(position).getItemName(), Toast.LENGTH_LONG).show();
     }
 }

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Expandable RecyclerView</string>
     <string name="expandable_recycler_view">Expandable Recycler view</string>
+    <string name="clicked">"Clicked : "</string>
 </resources>
