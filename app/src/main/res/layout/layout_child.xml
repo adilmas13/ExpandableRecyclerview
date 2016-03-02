@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#212121"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/child_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:text="This a child item"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/shadow"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#323232"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@id/child_title"
+        />
+</RelativeLayout>
